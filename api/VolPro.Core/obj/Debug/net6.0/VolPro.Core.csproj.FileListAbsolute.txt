@@ -1,0 +1,15 @@
+D:\vol.pro20241231\api\VolPro.Core\bin\Debug\net6.0\VolPro.Core.deps.json
+D:\vol.pro20241231\api\VolPro.Core\bin\Debug\net6.0\VolPro.Core.dll
+D:\vol.pro20241231\api\VolPro.Core\bin\Debug\net6.0\VolPro.Core.pdb
+D:\vol.pro20241231\api\VolPro.Core\bin\Debug\net6.0\VolPro.Entity.dll
+D:\vol.pro20241231\api\VolPro.Core\bin\Debug\net6.0\VolPro.Entity.pdb
+D:\vol.pro20241231\api\VolPro.Core\obj\Debug\net6.0\VolPro.Core.csproj.AssemblyReference.cache
+D:\vol.pro20241231\api\VolPro.Core\obj\Debug\net6.0\VolPro.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\vol.pro20241231\api\VolPro.Core\obj\Debug\net6.0\VolPro.Core.AssemblyInfoInputs.cache
+D:\vol.pro20241231\api\VolPro.Core\obj\Debug\net6.0\VolPro.Core.AssemblyInfo.cs
+D:\vol.pro20241231\api\VolPro.Core\obj\Debug\net6.0\VolPro.Core.csproj.CoreCompileInputs.cache
+D:\vol.pro20241231\api\VolPro.Core\obj\Debug\net6.0\VolPro.C.4C01ED2B.Up2Date
+D:\vol.pro20241231\api\VolPro.Core\obj\Debug\net6.0\VolPro.Core.dll
+D:\vol.pro20241231\api\VolPro.Core\obj\Debug\net6.0\refint\VolPro.Core.dll
+D:\vol.pro20241231\api\VolPro.Core\obj\Debug\net6.0\VolPro.Core.pdb
+D:\vol.pro20241231\api\VolPro.Core\obj\Debug\net6.0\ref\VolPro.Core.dll

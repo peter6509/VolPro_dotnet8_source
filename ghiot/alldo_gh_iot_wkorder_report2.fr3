@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<TfrxReport Version="5.6.1" DotMatrixReport="False" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PrintOptions.Printer="预设" PrintOptions.PrintOnSheet="9" ReportOptions.CreateDate="43340.3666048495" ReportOptions.Description.Text="" ReportOptions.LastChange="45805.4610986574" ScriptLanguage="PascalScript" ScriptText.Text="procedure Barcode2D1OnBeforePrint(Sender: TfrxComponent);&#13;&#10;var&#13;&#10;   barcode2d: TfrxBarCode2DView;&#13;&#10;begin&#13;&#10;   barcode2d := TfrxBarCode2DView(Sender);&#13;&#10; barcode2d.Text := 'http://jhiot.hopto.org:8069/iot_rpline?wkorder='+&#60;WKOrder.&#34;工單&#34;&#62; ;&#13;&#10;&#13;&#10;end;&#13;&#10;&#13;&#10;begin&#13;&#10;&#13;&#10;end.">
+  <Datasets>
+    <item DataSet="dsWKOrder" DataSetName="WKOrder"/>
+  </Datasets>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000"/>
+  <TfrxReportPage Name="Page1" Font.Charset="1" Font.Color="0" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" Orientation="poLandscape" PaperWidth="297" PaperHeight="210" PaperSize="9" LeftMargin="10" RightMargin="10" TopMargin="5" BottomMargin="2" MirrorMargins="True" ColumnWidth="0" ColumnPositions.Text="" BackPictureVisible="False" BackPicturePrintable="False" BackPictureStretched="False" HGuides.Text="" VGuides.Text="">
+    <TfrxDetailData Name="DetailData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="724.45145333" Left="0" Top="41.57483" Width="1046.92981" ColumnWidth="0" ColumnGap="0" DataSet="dsWKOrder" DataSetName="WKOrder" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="Memo1" Left="405.72078" Top="13.09183667" Width="273.48825" Height="40.89765" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="136" Font.Color="-16777208" Font.Height="-21" Font.Name="微軟正黑體" Font.Style="1" ParentFont="False" Text="製令單   自主檢驗   製程記錄"/>
+      <TfrxShapeView Name="Shape1" Left="20.33859" Top="52.42517" Width="82.48299333" Height="33.89765"/>
+      <TfrxMemoView Name="Memo2" Left="27.55906" Top="55.42517" Width="70.48825" Height="31.89765" Font.Charset="136" Font.Color="-16777208" Font.Height="-19" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="料  號"/>
+      <TfrxMemoView Name="Memo3" Left="103" Top="52.42517" Width="266.29684667" Height="33.89765" DataField="料號" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="136" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" Frame.Typ="15" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;料號&#34;]"/>
+      <TfrxShapeView Name="Shape2" Left="370.33333333" Top="52.42517" Width="61.15491667" Height="33.89765"/>
+      <TfrxMemoView Name="Memo4" Left="369.33333333" Top="54.75850333" Width="70.48825" Height="31.89765" Font.Charset="136" Font.Color="-16777208" Font.Height="-19" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="版 別"/>
+      <TfrxMemoView Name="Memo5" Left="432.33333333" Top="52.42517" Width="54.29684667" Height="33.89765" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="136" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" Frame.Typ="15" ParentFont="False" VAlign="vaCenter" Text=""/>
+      <TfrxShapeView Name="Shape3" Left="486.33333334" Top="52.42517" Width="46.15491666" Height="33.89765"/>
+      <TfrxMemoView Name="Memo6" Left="491" Top="57.42517" Width="35.82158333" Height="24.89765" Font.Charset="136" Font.Color="-16777208" Font.Height="-19" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="PO."/>
+      <TfrxMemoView Name="WKOrderPO" Left="533" Top="52.42517" Width="184.74026" Height="33.89765" DataField="PO" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="136" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" Frame.Typ="15" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;PO&#34;]"/>
+      <TfrxShapeView Name="Shape4" Left="718" Top="52.42517" Width="86.48825" Height="33.89765"/>
+      <TfrxMemoView Name="Memo7" Left="723" Top="55.42517" Width="74.48825" Height="22.89765" Font.Charset="136" Font.Color="-16777208" Font.Height="-19" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="訂單數"/>
+      <TfrxMemoView Name="Memo8" Left="804" Top="52.42517" Width="80.37013" Height="33.89765" DataField="訂單數" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="136" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;訂單數&#34;]"/>
+      <TfrxShapeView Name="Shape5" Left="885" Top="52.42517" Width="82.70872" Height="33.89765"/>
+      <TfrxMemoView Name="Memo9" Left="967.22047" Top="52.42517" Width="71.5906" Height="33.89765" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="136" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text=""/>
+      <TfrxMemoView Name="Memo10" Left="887.22047" Top="55.42517" Width="74.48825" Height="22.89765" Font.Charset="136" Font.Color="-16777208" Font.Height="-19" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="毛胚數"/>
+      <TfrxShapeView Name="Shape6" Left="20.33859" Top="86.42517" Width="83.14966" Height="33.89765"/>
+      <TfrxMemoView Name="Memo11" Left="35.67192334" Top="89.75850333" Width="57.81632666" Height="28.89765" Font.Charset="136" Font.Color="-16777208" Font.Height="-19" Font.Name="微軟正黑體" Font.Style="0" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="工程別"/>
+      <TfrxMemoView Name="Memo12" Left="103.66666666" Top="86.42517" Width="71.40692667" Height="33.89765" DataField="工程別" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="136" Font.Color="-16777208" Font.Height="-12" Font.Name="微軟正黑體" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;工程別&#34;]"/>
+      <TfrxShapeView Name="Shape7" Left="174.66666666" Top="86.42517" Width="174.15491667" Height="33.89765"/>
+      <TfrxMemoView Name="Memo13" Left="175.22047" Top="93.75850333" Width="67.70872" Height="18.89765" Font.Charset="136" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="程式代號:"/>
+      <TfrxMemoView Name="Memo14" Left="240.54854666" Top="86.86611" Width="103.85838" Height="34.01577" DataField="程式代號" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="136" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;程式代號&#34;]"/>
+      <TfrxShapeView Name="Shape8" Left="348.99999999" Top="86.42517" Width="176.15491667" Height="33.89765001"/>
+      <TfrxMemoView Name="Memo15" Left="353.33333333" Top="93.75850333" Width="71.48825" Height="18.89765" Font.Charset="136" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="夾持壓力:"/>
+      <TfrxMemoView Name="Memo16" Left="428" Top="93.75850333" Width="82.74026" Height="18.89765" DataField="挾持壓力" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="136" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;挾持壓力&#34;]"/>
+      <TfrxShapeView Name="Shape9" Left="525" Top="86.42516999" Width="101.82158334" Height="33.89765"/>
+      <TfrxMemoView Name="Memo18" Left="626.66666666" Top="86.42517001" Width="90.37013" Height="33.89764999" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="136" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text=""/>
+      <TfrxShapeView Name="Shape10" Left="718" Top="86.42517" Width="86.48825" Height="33.89765"/>
+      <TfrxMemoView Name="Memo19" Left="723" Top="89.42517" Width="74.48825" Height="22.89765" Font.Charset="136" Font.Color="-16777208" Font.Height="-19" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="出貨日"/>
+      <TfrxMemoView Name="Memo20" Left="804" Top="86.42517" Width="80.37013" Height="33.89765" DataField="出貨日" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="136" Font.Color="-16777208" Font.Height="-12" Font.Name="微軟正黑體" Font.Style="0" Frame.Typ="15" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;出貨日&#34;]"/>
+      <TfrxShapeView Name="Shape11" Left="885" Top="86.42517" Width="82.70872" Height="33.89765"/>
+      <TfrxMemoView Name="Memo21" Left="887.22047" Top="91.42517" Width="74.48825" Height="22.89765" Font.Charset="136" Font.Color="-16777208" Font.Height="-19" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="進料日"/>
+      <TfrxShapeView Name="Shape12" Left="967.33859" Top="86.42517" Width="71.5906" Height="33.89765"/>
+      <TfrxShapeView Name="Shape13" Left="20.33859" Top="120.42517" Width="147.14966" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape14" Left="166.67716535" Top="120.42517" Width="158.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape15" Left="325" Top="120.42517" Width="158.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape16" Left="483.66666667" Top="120.42517" Width="158.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape17" Left="641" Top="145.75850334" Width="162.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape18" Left="20.33859" Top="145.75850333" Width="147.14966" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape19" Left="166.67716535" Top="145.75850333" Width="158.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape20" Left="325" Top="145.75850333" Width="158.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape21" Left="483" Top="145.75850333" Width="158.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape22" Left="641" Top="120.42516999" Width="162.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape23" Left="20.33859" Top="171.32808399" Width="147.14966" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape24" Left="166.67716535" Top="171.32808399" Width="158.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape25" Left="325" Top="171.32808399" Width="158.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape26" Left="483" Top="171.32808399" Width="158.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape27" Left="641" Top="171.32808399" Width="162.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape28" Left="20.33859" Top="197.18635171" Width="147.14966" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape29" Left="166.67716535" Top="197.18635171" Width="158.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape30" Left="325" Top="197.18635171" Width="158.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape31" Left="483" Top="197.18635171" Width="158.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape32" Left="641" Top="197.18635171" Width="162.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape33" Left="20.33859" Top="222.42517" Width="146.48299333" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape34" Left="166.67716535" Top="222.42517" Width="158.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape35" Left="325" Top="222.42517" Width="158.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape36" Left="483" Top="222.42517" Width="158.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape37" Left="641" Top="222.42517" Width="162.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape38" Left="20.33859" Top="247.75850333" Width="115.81632667" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape39" Left="136.01049869" Top="247.75850332" Width="165.15491666" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape40" Left="301.00000001" Top="247.75850333" Width="117.82158334" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape41" Left="419" Top="247.75850333" Width="163.82158333" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape42" Left="582.33333334" Top="247.75850333" Width="93.82158333" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape43" Left="803" Top="120.42517" Width="236.88713423" Height="183.23098333"/>
+      <TfrxMemoView Name="Memo22" Left="810" Top="128.42517" Width="121.48825" Height="18.89765" Font.Charset="136" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="變更或補充註記:"/>
+      <TfrxShapeView Name="Shape44" Left="20.33859" Top="273.09183667" Width="115.81632667" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape45" Left="136.01049869" Top="273.09183666" Width="165.15491666" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape46" Left="301.00000001" Top="273.09183666" Width="117.82158334" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape47" Left="419" Top="273.09183666" Width="163.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape48" Left="582.33333334" Top="273.09183667" Width="93.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape49" Left="676" Top="273.09183667" Width="93.82677165" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape50" Left="802.99999999" Top="303.75850334" Width="95.82677165" Height="30.23622046"/>
+      <TfrxShapeView Name="Shape51" Left="935.33333333" Top="303.75850332" Width="69.82677165" Height="29.56955381"/>
+      <TfrxShapeView Name="Shape52" Left="899" Top="304.42517" Width="36.16010498" Height="29.5695538"/>
+      <TfrxShapeView Name="Shape53" Left="1005.53018372" Top="303.75850334" Width="34.35695051" Height="29.5695538"/>
+      <TfrxMemoView Name="Memo23" Left="57.22572667" Top="251.09183667" Width="49.15491667" Height="19.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="名  稱"/>
+      <TfrxMemoView Name="Memo24" Left="172.99999999" Top="248.75850334" Width="72.82158333" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="檢驗尺寸"/>
+      <TfrxMemoView Name="Memo25" Left="324" Top="248.09183667" Width="79.48825" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="圖面公差"/>
+      <TfrxMemoView Name="Memo26" Left="473.33333333" Top="248.09183667" Width="79.48825" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="實作尺寸"/>
+      <TfrxMemoView Name="Memo27" Left="593.66666667" Top="248.42517" Width="79.48825" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="補正號碼"/>
+      <TfrxMemoView Name="Memo28" Left="701.66666667" Top="248.09183666" Width="79.48825" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="測量方式"/>
+      <TfrxMemoView Name="Memo29" Left="820" Top="305.09183667" Width="79.48825" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="量測工具"/>
+      <TfrxMemoView Name="Memo30" Left="943.33333333" Top="304.75850334" Width="58.15491667" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="量測工具"/>
+      <TfrxMemoView Name="Memo31" Left="900.66666667" Top="307.75850333" Width="34.15491667" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="代號"/>
+      <TfrxMemoView Name="Memo32" Left="1007" Top="304.09183667" Width="45.48825" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="代號"/>
+      <TfrxShapeView Name="Shape54" Left="20.33859" Top="303.09183667" Width="115.81632667" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape55" Left="136.01049869" Top="303.09183666" Width="165.15491666" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape56" Left="301.00000001" Top="303.09183667" Width="117.82158334" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape57" Left="419" Top="303.09183667" Width="163.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape58" Left="582.33333334" Top="303.09183667" Width="93.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape59" Left="676" Top="303.09183666" Width="93.82677165" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape60" Left="769.66666667" Top="303.09183666" Width="32.82677164" Height="30.90288714"/>
+      <TfrxShapeView Name="Shape61" Left="802.99999999" Top="333.75850333" Width="95.82677165" Height="26.90288714"/>
+      <TfrxShapeView Name="Shape62" Left="899" Top="333.75850333" Width="36.16010498" Height="26.90288714"/>
+      <TfrxMemoView Name="Memo33" Left="910.33333333" Top="333.75850333" Width="14.48825" Height="23.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="A"/>
+      <TfrxMemoView Name="Memo34" Left="815.88188" Top="336.75850333" Width="66.16543" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="三 次 元"/>
+      <TfrxShapeView Name="Shape63" Left="935.33333333" Top="333.09183667" Width="69.82677165" Height="27.5695538"/>
+      <TfrxMemoView Name="Memo35" Left="934.88188" Top="336.42516999" Width="69.72449" Height="22.56431667" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="公制牙規"/>
+      <TfrxShapeView Name="Shape64" Left="1005.53018372" Top="333.09183666" Width="34.35695051" Height="27.56955381"/>
+      <TfrxMemoView Name="Memo36" Left="1013" Top="338.53803333" Width="18.48825" Height="20.11812" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="W"/>
+      <TfrxMemoView Name="Memo37" Left="22.33859" Top="274.09183667" Width="109.40167" Height="25.89765" DataField="檢1名稱" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢1名稱&#34;]"/>
+      <TfrxMemoView Name="Memo38" Left="138" Top="276.09183666" Width="159.07359333" Height="22.89765" DataField="檢1尺寸" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢1尺寸&#34;]"/>
+      <TfrxMemoView Name="Memo39" ShiftMode="smWhenOverlapped" Left="304" Top="274.75850333" Width="111.40692667" Height="23.89765" DataField="檢1公差" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢1公差&#34;]"/>
+      <TfrxMemoView Name="Memo40" ShiftMode="smWhenOverlapped" Left="421" Top="274.75850332" Width="158.07359333" Height="23.89765" DataField="檢1實作尺寸" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢1實作尺寸&#34;]"/>
+      <TfrxShapeView Name="Shape65" Left="20.33859" Top="333.09183666" Width="115.81632667" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape66" Left="136.01049869" Top="333.09183667" Width="165.15491666" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape67" Left="301.00000001" Top="333.09183667" Width="117.82158334" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape68" Left="419" Top="333.09183667" Width="163.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape69" Left="582.33333334" Top="333.09183667" Width="93.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape70" Left="675.66666668" Top="333.09183667" Width="94.49343831" Height="29.5695538"/>
+      <TfrxShapeView Name="Shape71" Left="769.66666667" Top="333.75850333" Width="32.82677164" Height="28.23622047"/>
+      <TfrxShapeView Name="Shape72" Left="802.99999999" Top="360.42516999" Width="95.82677165" Height="32.23622047"/>
+      <TfrxShapeView Name="Shape73" Left="935.33333333" Top="360.42517" Width="69.82677165" Height="31.5695538"/>
+      <TfrxShapeView Name="Shape74" Left="899" Top="359.75850333" Width="36.16010498" Height="32.90288714"/>
+      <TfrxShapeView Name="Shape75" Left="1005.53018372" Top="360.42517" Width="34.35695051" Height="31.5695538"/>
+      <TfrxMemoView Name="Memo45" Left="812.55906" Top="400.20470001" Width="89.82158333" Height="18.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="外徑分離卡"/>
+      <TfrxMemoView Name="Memo46" Left="910.33333333" Top="364.09183667" Width="24.48825" Height="23.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="B"/>
+      <TfrxMemoView Name="Memo47" Left="933.99474333" Top="359.97897333" Width="67.16017333" Height="30.23624" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="NPT-NTPF牙規"/>
+      <TfrxMemoView Name="Memo48" Left="1014.33333333" Top="368.2047" Width="19.15491667" Height="20.11812" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="Z"/>
+      <TfrxMemoView Name="Memo49" Left="22.33859" Top="306.75850333" Width="109.51453333" Height="23.89765" DataField="檢2名稱" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢2名稱&#34;]"/>
+      <TfrxMemoView Name="Memo50" Left="137.33333333" Top="304.75850333" Width="160.74026" Height="25.89765" DataField="檢2尺寸" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢2尺寸&#34;]"/>
+      <TfrxMemoView Name="Memo51" ShiftMode="smWhenOverlapped" Left="304" Top="305.75850333" Width="111.07359333" Height="22.89765" DataField="檢2公差" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢2公差&#34;]"/>
+      <TfrxMemoView Name="Memo52" ShiftMode="smWhenOverlapped" Left="420.33333333" Top="305.42517" Width="159.74026" Height="25.89765" DataField="檢2實作尺寸" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢2實作尺寸&#34;]"/>
+      <TfrxShapeView Name="Shape76" Left="20.33859" Top="363.09183666" Width="115.81632667" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape77" Left="20.33859" Top="423.09183666" Width="115.81632667" Height="30.90288714"/>
+      <TfrxShapeView Name="Shape78" Left="20.33859" Top="453.75850333" Width="115.81632667" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape79" Left="20.33859" Top="483.75850333" Width="115.14966" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape80" Left="136.01049869" Top="363.09183667" Width="165.15491666" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape81" Left="136.01049869" Top="454.42517" Width="165.15491666" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape82" Left="136.01049869" Top="423.09183666" Width="165.15491666" Height="31.56955381"/>
+      <TfrxShapeView Name="Shape83" Left="136.01049869" Top="484.42517" Width="165.15491666" Height="29.5695538"/>
+      <TfrxShapeView Name="Shape84" Left="301.00000001" Top="363.09183667" Width="117.82158334" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape85" Left="301.00000001" Top="423.09183665" Width="117.82158334" Height="30.90288714"/>
+      <TfrxShapeView Name="Shape86" Left="419" Top="453.09183666" Width="163.82158333" Height="30.90288714"/>
+      <TfrxShapeView Name="Shape87" Left="301.00000001" Top="484.42516999" Width="117.82158334" Height="29.56955381"/>
+      <TfrxShapeView Name="Shape88" Left="419" Top="363.09183667" Width="163.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape89" Left="419" Top="423.09183665" Width="163.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape90" Left="301.00000001" Top="453.75850334" Width="117.82158334" Height="30.90288713"/>
+      <TfrxShapeView Name="Shape91" Left="582.33333334" Top="453.75850333" Width="93.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape92" Left="582.33333334" Top="363.09183667" Width="93.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape93" Left="582.33333334" Top="421.75850332" Width="93.82158333" Height="32.23622047"/>
+      <TfrxShapeView Name="Shape94" Left="419" Top="483.75850333" Width="163.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape95" Left="582.33333334" Top="483.75850333" Width="93.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape96" Left="676" Top="362.42517" Width="94.49343831" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape97" Left="676" Top="422.42516999" Width="93.82677165" Height="32.23622046"/>
+      <TfrxShapeView Name="Shape98" Left="676" Top="454.42516999" Width="93.82677165" Height="29.5695538"/>
+      <TfrxShapeView Name="Shape99" Left="676" Top="483.75850333" Width="93.82677165" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape100" Left="771" Top="361.75850333" Width="31.49343831" Height="30.23622048"/>
+      <TfrxShapeView Name="Shape101" Left="769.99474333" Top="422.42516999" Width="32.82677164" Height="31.5695538"/>
+      <TfrxShapeView Name="Shape102" Left="769.99474332" Top="453.75850333" Width="32.82677165" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape103" Left="769.99474333" Top="483.75850333" Width="32.82677164" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape104" Left="802.99999999" Top="392.42517001" Width="95.82677165" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape105" Left="802.99999999" Top="453.75850334" Width="95.82677165" Height="29.5695538"/>
+      <TfrxShapeView Name="Shape106" Left="802.99999999" Top="422.42517" Width="95.82677165" Height="31.5695538"/>
+      <TfrxShapeView Name="Shape107" Left="802.33333332" Top="483.09183667" Width="95.82677165" Height="30.90288714"/>
+      <TfrxShapeView Name="Shape108" Left="899" Top="392.42517" Width="36.16010498" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape109" Left="899" Top="422.42516999" Width="36.16010498" Height="31.56955381"/>
+      <TfrxShapeView Name="Shape110" Left="899" Top="454.42517" Width="36.16010498" Height="28.90288714"/>
+      <TfrxShapeView Name="Shape111" Left="899" Top="482.42517" Width="36.16010498" Height="31.5695538"/>
+      <TfrxShapeView Name="Shape112" Left="935.33333333" Top="392.42517" Width="69.82677165" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape113" Left="935.33333333" Top="422.42517" Width="69.82677165" Height="31.5695538"/>
+      <TfrxShapeView Name="Shape114" Left="935.33333333" Top="453.75850333" Width="69.82677165" Height="28.90288714"/>
+      <TfrxShapeView Name="Shape115" Left="935.33333333" Top="482.42517" Width="69.82677165" Height="31.56955381"/>
+      <TfrxShapeView Name="Shape116" Left="1005.53018372" Top="391.75850333" Width="34.35695051" Height="30.90288714"/>
+      <TfrxShapeView Name="Shape117" Left="1005.53018372" Top="422.42517" Width="34.35695051" Height="31.56955381"/>
+      <TfrxShapeView Name="Shape118" Left="1005.53018372" Top="453.75850334" Width="34.35695051" Height="28.90288713"/>
+      <TfrxShapeView Name="Shape119" Left="1005.53018372" Top="481.75850333" Width="34.35695051" Height="32.23622047"/>
+      <TfrxMemoView Name="Memo55" Left="905.88713667" Top="396.42517" Width="24.48825" Height="23.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="J"/>
+      <TfrxMemoView Name="Memo56" Left="909" Top="428.75850333" Width="24.48825" Height="23.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="H"/>
+      <TfrxMemoView Name="Memo57" Left="911" Top="458.09183667" Width="16.82677165" Height="23.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="G"/>
+      <TfrxMemoView Name="Memo58" Left="910.33333333" Top="488.42517" Width="16.82677165" Height="17.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="V"/>
+      <TfrxMemoView Name="Memo59" Left="1008.77427333" Top="396.09183666" Width="26.04731" Height="23.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="AA"/>
+      <TfrxMemoView Name="Memo60" Left="1008.10760666" Top="425.75850334" Width="26.71397667" Height="23.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="BB"/>
+      <TfrxMemoView Name="Memo61" Left="1015" Top="457.42517" Width="19.82158333" Height="23.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="E"/>
+      <TfrxMemoView Name="Memo62" Left="809.11286333" Top="427.2047" Width="89.82158333" Height="18.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="內徑分離卡"/>
+      <TfrxMemoView Name="Memo63" Left="822.66666667" Top="366.42517" Width="58.82158333" Height="18.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="高 度 規"/>
+      <TfrxMemoView Name="Memo64" Left="812.54854666" Top="458.2047" Width="78.05782333" Height="18.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="氣壓量規"/>
+      <TfrxMemoView Name="Memo65" Left="813.43568333" Top="485.75850333" Width="75.50402" Height="18.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="塞     規"/>
+      <TfrxMemoView Name="Memo66" Left="937.77427333" Top="392.09183667" Width="65.71397667" Height="25.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="UNC-UNF牙規"/>
+      <TfrxMemoView Name="Memo67" Left="938.33852165" Top="426.09183667" Width="68.49343832" Height="19.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="環牙規"/>
+      <TfrxMemoView Name="Memo68" Left="943.66666667" Top="455.42517" Width="58.82158333" Height="22.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="面粗度儀"/>
+      <TfrxMemoView Name="Memo69" Left="21.00525667" Top="335.75850333" Width="112.06833667" Height="22.89765" DataField="檢3名稱" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢3名稱&#34;]"/>
+      <TfrxMemoView Name="Memo70" Left="142" Top="335.42517" Width="153.74026" Height="25.89765" DataField="檢3尺寸" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢3尺寸&#34;]"/>
+      <TfrxMemoView Name="Memo71" ShiftMode="smWhenOverlapped" Left="304.66666667" Top="335.42517" Width="111.40692667" Height="23.89765" DataField="檢3公差" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢3公差&#34;]"/>
+      <TfrxMemoView Name="Memo72" ShiftMode="smWhenOverlapped" Left="421" Top="335.09183667" Width="158.74026" Height="22.89765" DataField="檢3實作尺寸" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢3實作尺寸&#34;]"/>
+      <TfrxMemoView Name="Memo76" Left="24.33859" Top="368.42517" Width="107.40167" Height="21.89765" DataField="檢4名稱" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢4名稱&#34;]"/>
+      <TfrxMemoView Name="Memo77" Left="139.33333333" Top="367.75850333" Width="157.74026" Height="22.89765" DataField="檢4尺寸" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢4尺寸&#34;]"/>
+      <TfrxMemoView Name="Memo78" ShiftMode="smWhenOverlapped" Left="304" Top="366.09183667" Width="111.40692667" Height="22.89765" DataField="檢4公差" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢4公差&#34;]"/>
+      <TfrxMemoView Name="Memo79" ShiftMode="smWhenOverlapped" Left="421" Top="366.09183667" Width="159.40692667" Height="21.89765" DataField="檢4實作尺寸" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢4實作尺寸&#34;]"/>
+      <TfrxMemoView Name="Memo82" Left="23.00525667" Top="396.75850333" Width="110.06833667" Height="21.89765" DataField="檢5名稱" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢5名稱&#34;]"/>
+      <TfrxMemoView Name="Memo83" Left="140" Top="395.75850333" Width="157.40692667" Height="22.89765" DataField="檢5尺寸" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢5尺寸&#34;]"/>
+      <TfrxMemoView Name="Memo84" ShiftMode="smWhenOverlapped" Left="302.66666667" Top="395.09183667" Width="113.74026" Height="21.89765" DataField="檢5公差" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢5公差&#34;]"/>
+      <TfrxMemoView Name="Memo85" ShiftMode="smWhenOverlapped" Left="421" Top="395.75850333" Width="158.40692667" Height="22.89765" DataField="檢5實作尺寸" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;檢5實作尺寸&#34;]"/>
+      <TfrxMemoView Name="Memo91" Left="379.55411333" Top="516.09183667" Width="286.48825" Height="24.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="微軟正黑體" Font.Style="1" ParentFont="False" Text="製   程    數    量    日    期    記    錄"/>
+      <TfrxShapeView Name="Shape121" Left="20.33859" Top="549.09183666" Width="70.48299333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape122" Left="91" Top="549.09183666" Width="82.48825" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape123" Left="173" Top="549.09183666" Width="106.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape124" Left="280" Top="549.09183666" Width="101.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape125" Left="382" Top="549.09183666" Width="97.48825" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape126" Left="479.66666666" Top="549.09183666" Width="105.48825001" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape127" Left="585.33333334" Top="549.09183666" Width="105.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape128" Left="921.33333334" Top="549.09183666" Width="118.92918999" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape129" Left="20.33859" Top="579.09183667" Width="70.48299333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape130" Left="91" Top="579.09183667" Width="82.48825" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape131" Left="173" Top="579.09183667" Width="106.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape132" Left="280" Top="579.09183667" Width="101.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape133" Left="382" Top="579.09183667" Width="97.48825" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape134" Left="479.66666666" Top="579.09183667" Width="105.48825001" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape135" Left="585.33333334" Top="579.09183667" Width="105.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape136" Left="922" Top="579.09183667" Width="118.26252333" Height="29.5695538"/>
+      <TfrxShapeView Name="Shape137" Left="20.33859" Top="609.09183667" Width="70.48299333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape138" Left="91" Top="609.09183667" Width="82.48825" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape139" Left="173" Top="609.09183667" Width="106.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape140" Left="280" Top="609.09183667" Width="101.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape141" Left="382" Top="609.09183667" Width="97.48825" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape142" Left="479.66666666" Top="609.09183667" Width="105.48825001" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape143" Left="585.33333334" Top="609.09183667" Width="105.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape144" Left="922" Top="608.42517" Width="118.26252333" Height="30.90288714"/>
+      <TfrxMemoView Name="Memo92" Left="33.89765" Top="552.42517" Width="40.25201" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="日期"/>
+      <TfrxMemoView Name="Memo93" Left="98" Top="552.42517" Width="70.48825" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="機台編號"/>
+      <TfrxMemoView Name="Memo94" Left="186" Top="552.42517" Width="85.48825" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="完成良品數"/>
+      <TfrxMemoView Name="Memo95" Left="287.66666667" Top="551.75850333" Width="84.82158333" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="材料不良數"/>
+      <TfrxMemoView Name="Memo96" Left="390" Top="552.42517" Width="85.48825" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="加工不良數"/>
+      <TfrxMemoView Name="Memo97" Left="493.66666666" Top="551.75850333" Width="84.15491667" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="合計承交數"/>
+      <TfrxMemoView Name="Memo98" Left="602.33333334" Top="552.42517" Width="82.48825" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="完成日期"/>
+      <TfrxMemoView Name="Memo99" Left="951.66666666" Top="551.75850333" Width="55.90816334" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="點交者"/>
+      <TfrxMemoView Name="WKOrderWKORDERMEMO" Left="805.33333333" Top="158.09183667" Width="220.63018" Height="140.23098333" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="內部收貨單:( ) 內部交貨單:(WH/OUT/05267)"/>
+      <TfrxMemoView Name="Memo104" Left="967.55968" Top="86.92919" Width="71.81107" Height="30.23624" DataField="進貨日" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;進貨日&#34;]"/>
+      <TfrxMemoView Name="Memo105" Left="971.33921" Top="56.69295" Width="64.25201" Height="26.45671" DataField="毛胚數" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;毛胚數&#34;]"/>
+      <TfrxMemoView Name="Memo41" Left="581.97928333" Top="273.26530667" Width="90.04731" Height="26.45671" DataField="補正1" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;補正1&#34;]"/>
+      <TfrxMemoView Name="Memo42" Left="583.31261667" Top="304.83488" Width="90.71397667" Height="26.45671" DataField="補正2" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;補正2&#34;]"/>
+      <TfrxMemoView Name="Memo43" Left="583.97928333" Top="335.07112" Width="102.04731" Height="23.79004333" DataField="補正3" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;補正3&#34;]"/>
+      <TfrxMemoView Name="Memo44" Left="585.31261667" Top="365.97402667" Width="88.71397667" Height="26.45671" DataField="補正4" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;補正4&#34;]"/>
+      <TfrxMemoView Name="Memo53" Left="584.64595" Top="393.5436" Width="90.04731" Height="26.45671" DataField="補正5" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;補正5&#34;]"/>
+      <TfrxMemoView Name="Memo54" Left="677.80612333" Top="274.59864" Width="89.58534333" Height="26.45671" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text="2H"/>
+      <TfrxMemoView Name="Memo73" Left="678.47278999" Top="304.83488" Width="89.58534333" Height="26.45671" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text=""/>
+      <TfrxMemoView Name="Memo74" Left="680" Top="335.07112" Width="90.49343832" Height="26.45671" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text=""/>
+      <TfrxMemoView Name="Memo75" Left="679.80612333" Top="364.64069333" Width="88.25201" Height="22.67718" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text=""/>
+      <TfrxMemoView Name="Memo80" Left="678.47279" Top="395.5436" Width="89.58534333" Height="22.67718" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" VAlign="vaCenter" Text=""/>
+      <TfrxMemoView Name="Memo81" Left="769.39146667" Top="275.26530667" Width="32.46196667" Height="26.45671" DataField="量測碼1" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;量測碼1&#34;]"/>
+      <TfrxMemoView Name="Memo86" Left="768.7248" Top="304.83488" Width="30.46196667" Height="22.67718" DataField="量測碼2" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;量測碼2&#34;]"/>
+      <TfrxMemoView Name="Memo87" Left="772.05813333" Top="334.40445333" Width="27.12863333" Height="22.67718" DataField="量測碼3" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;量測碼3&#34;]"/>
+      <TfrxMemoView Name="Memo88" Left="772.7248" Top="365.30736" Width="27.7953" Height="22.67718" DataField="量測碼4" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;量測碼4&#34;]"/>
+      <TfrxMemoView Name="Memo89" Left="771.39146667" Top="394.87693333" Width="27.7953" Height="22.67718" DataField="量測碼5" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;量測碼5&#34;]"/>
+      <TfrxMemoView Name="Memo90" Left="297.99999999" Top="13.09183667" Width="99.37013" Height="39.56431667" DataField="客戶" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-21" Font.Name="微軟正黑體" Font.Style="1" HAlign="haRight" ParentFont="False" Text="[WKOrder.&#34;客戶&#34;]"/>
+      <TfrxMemoView Name="Memo106" Left="-0.66666666" Top="695.09183666" Width="94.48825" Height="24.23098333" Font.Charset="1" Font.Color="-16777208" Font.Height="-21" Font.Name="微軟正黑體" Font.Style="1" HAlign="haCenter" ParentFont="False" Text=""/>
+      <TfrxMemoView Name="Memo107" Left="79.33333333" Top="705.09709334" Width="94.48825" Height="26.23098333" Font.Charset="1" Font.Color="-16777208" Font.Height="-21" Font.Name="微軟正黑體" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="單位主管:"/>
+      <TfrxMemoView Name="Memo108" Left="623.28076667" Top="705.09709334" Width="65.15491667" Height="24.23098333" Font.Charset="1" Font.Color="-16777208" Font.Height="-21" Font.Name="微軟正黑體" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="製單:"/>
+      <TfrxShapeView Name="Shape145" Left="676" Top="247.75850334" Width="126.48825" Height="25.5695538"/>
+      <TfrxShapeView Name="Shape146" Left="770.00000001" Top="273.09183666" Width="32.49343831" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape147" Left="20.33859" Top="393.09183666" Width="115.81632667" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape148" Left="136.01049869" Top="393.09183667" Width="165.15491666" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape149" Left="301.00000001" Top="393.09183667" Width="117.82158334" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape150" Left="419" Top="393.09183667" Width="163.82158333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape151" Left="582.33333334" Top="393.09183667" Width="93.82158333" Height="28.90288714"/>
+      <TfrxShapeView Name="Shape152" Left="676" Top="392.42517" Width="95.16010498" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape153" Left="770.66140999" Top="391.75850333" Width="32.16010498" Height="30.90288714"/>
+      <TfrxShapeView Name="Shape154" Left="691.33333333" Top="549.09183666" Width="110.92919" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape155" Left="802" Top="549.09183666" Width="119.59585667" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape156" Left="691.33333333" Top="579.09183667" Width="110.92919" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape157" Left="691.33333333" Top="609.09183667" Width="110.92919" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape158" Left="802.00000001" Top="579.09183667" Width="120.26252333" Height="30.23622047"/>
+      <TfrxShapeView Name="Shape159" Left="802" Top="609.09183667" Width="120.26252333" Height="30.23622047"/>
+      <TfrxMemoView Name="Memo109" Left="819.33333333" Top="553.09183667" Width="91.24149667" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="首件覆檢者"/>
+      <TfrxMemoView Name="Memo110" Left="720.66666667" Top="553.09183667" Width="57.90816334" Height="21.89765" Font.Charset="1" Font.Color="-16777208" Font.Height="-16" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="架機者"/>
+      <TfrxMemoView Name="WKOrderREPORTOWNER" Left="696.39363" Top="705.09709334" Width="166.27829333" Height="26.23098333" DataField="REPORTOWNER" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-21" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;REPORTOWNER&#34;]"/>
+      <TfrxMemoView Name="Memo111" Left="22.66666667" Top="427.75850333" Width="109.40692667" Height="18.89765" DataField="檢6名稱" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;檢6名稱&#34;]"/>
+      <TfrxMemoView Name="Memo112" Left="138.66666667" Top="425.09183667" Width="158.74026" Height="26.89765" DataField="檢6尺寸" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;檢6尺寸&#34;]"/>
+      <TfrxMemoView Name="Memo113" Left="302" Top="426.42517" Width="114.74026" Height="23.56431667" DataField="檢6公差" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;檢6公差&#34;]"/>
+      <TfrxMemoView Name="Memo114" Left="421.33333333" Top="425.09183667" Width="158.74026" Height="24.89765" DataField="檢6實作尺寸" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;檢6實作尺寸&#34;]"/>
+      <TfrxMemoView Name="Memo115" Left="586.66666667" Top="423.75850333" Width="88.07359333" Height="26.89765" DataField="補正6" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;補正6&#34;]"/>
+      <TfrxMemoView Name="Memo116" Left="679.33333333" Top="424.42517" Width="87.40692667" Height="27.56431667" DataField="頻率6" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;頻率6&#34;]"/>
+      <TfrxMemoView Name="Memo117" Left="771.33333333" Top="425.75850333" Width="28.24149667" Height="25.56431667" DataField="量測碼6" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-9" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;量測碼6&#34;]"/>
+      <TfrxMemoView Name="Memo118" Left="24.66666666" Top="455.75850333" Width="107.40692667" Height="25.56431667" DataField="檢7名稱" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;檢7名稱&#34;]"/>
+      <TfrxMemoView Name="Memo119" Left="138" Top="457.75850333" Width="158.74026" Height="22.89765" DataField="檢7尺寸" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;檢7尺寸&#34;]"/>
+      <TfrxMemoView Name="Memo120" Left="302" Top="455.75850333" Width="114.07359333" Height="26.23098333" DataField="檢7公差" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;檢7公差&#34;]"/>
+      <TfrxMemoView Name="Memo121" Left="421.33333333" Top="455.75850333" Width="158.74026" Height="26.23098333" DataField="檢7實作尺寸" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;檢7實作尺寸&#34;]"/>
+      <TfrxMemoView Name="Memo122" Left="585.33333333" Top="456.42517" Width="90.07359333" Height="24.23098333" DataField="補正7" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;補正7&#34;]"/>
+      <TfrxMemoView Name="Memo123" Left="680" Top="457.75850333" Width="86.07359333" Height="22.89765" DataField="頻率7" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;頻率7&#34;]"/>
+      <TfrxMemoView Name="Memo124" Left="772" Top="457.09183667" Width="26.90816333" Height="25.56431667" DataField="量測碼7" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;量測碼7&#34;]"/>
+      <TfrxMemoView Name="Memo125" Left="24.66666667" Top="485.75850333" Width="107.40692667" Height="24.89765" DataField="檢8名稱" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;檢8名稱&#34;]"/>
+      <TfrxMemoView Name="Memo126" Left="137.33333333" Top="487.09183667" Width="158.74026" Height="18.89765" DataField="檢8尺寸" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;檢8尺寸&#34;]"/>
+      <TfrxMemoView Name="Memo127" Left="304" Top="487.75850333" Width="112.74026" Height="22.89765" DataField="檢8公差" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;檢8公差&#34;]"/>
+      <TfrxMemoView Name="Memo128" Left="421.33333333" Top="487.09183667" Width="158.74026" Height="18.89765" DataField="檢8實作尺寸" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-15" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;檢8實作尺寸&#34;]"/>
+      <TfrxMemoView Name="Memo129" Left="586" Top="486.42517" Width="89.40692667" Height="24.23098333" DataField="補正8" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;補正8&#34;]"/>
+      <TfrxMemoView Name="Memo130" Left="680.66666667" Top="486.42517" Width="86.74026" Height="23.56431667" DataField="頻率8" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;頻率8&#34;]"/>
+      <TfrxMemoView Name="Memo131" Left="772.66666666" Top="481.97897333" Width="24.90816333" Height="25.56431667" DataField="量測碼8" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="微軟正黑體" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;量測碼8&#34;]"/>
+      <TfrxShapeView Name="Shape120" Left="20.66666666" Top="513.75850333" Width="1019.14966" Height="35.5695538"/>
+      <TfrxMemoView Name="WKOrdermachinetime" Left="528.66666667" Top="93.75850333" Width="90.90816333" Height="18.89765" DataField="machinetime" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="[WKOrder.&#34;machinetime&#34;]"/>
+      <TfrxMemoView Name="WKOrderprodhrnum" Left="630" Top="93.75850333" Width="80.24149667" Height="18.89765" DataField="prodhrnum" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" HAlign="haCenter" ParentFont="False" Text="[WKOrder.&#34;prodhrnum&#34;]"/>
+      <TfrxMemoView Name="WKOrdercver" Left="440" Top="61.09183667" Width="41.57483" Height="18.89765" DataField="cver" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="1" Font.Color="-16777208" Font.Height="-13" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[WKOrder.&#34;cver&#34;]"/>
+      <TfrxBarcode2DView Name="Barcode2D1" ShiftMode="smDontShift" Left="922.20532" Top="642.5201" Width="63" Height="63" OnBeforePrint="Barcode2D1OnBeforePrint" StretchMode="smActualHeight" BarType="bcCodeQR" BarProperties.Encoding="qrUTF8BOM" BarProperties.QuietZone="0" BarProperties.ErrorLevels="ecM" BarProperties.PixelSize="3" BarProperties.CodePage="0" HAlign="haCenter" Rotation="0" ShowText="False" Text="12345678" Zoom="1" Font.Charset="0" Font.Color="0" Font.Height="-5" Font.Name="微軟正黑體" Font.Style="0" Font.Quality="fqAntialiased" FontScaled="False" QuietZone="0"/>
+      <TfrxMemoView Name="Memo17" Left="914.64626" Top="22.67718" Width="120.94496" Height="18.89765" DataField="工單" DataSet="dsWKOrder" DataSetName="WKOrder" Font.Charset="136" Font.Color="-16777208" Font.Height="-13" Font.Name="微軟正黑體" Font.Style="0" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="[WKOrder.&#34;工單&#34;]"/>
+    </TfrxDetailData>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="0" Left="0" Top="18.89765" Width="1046.92981" ColumnWidth="0" ColumnGap="0" DataSet="dsWKOrder" DataSetName="WKOrder" RowCount="0"/>
+  </TfrxReportPage>
+</TfrxReport>

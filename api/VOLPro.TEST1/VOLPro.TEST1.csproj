@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VolPro.Core\VolPro.Core.csproj" />
+    <ProjectReference Include="..\VolPro.Entity\VolPro.Entity.csproj" />
+    <ProjectReference Include="..\VolPro.Sys\VolPro.Sys.csproj" />
+  </ItemGroup>
+
+</Project>

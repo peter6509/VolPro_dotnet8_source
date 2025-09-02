@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\sf_project\\api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VolPro.WebApi\\VolPro.WebApi.csproj|e:\\sf_project\\api\\volpro.webapi\\volpro.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VolPro.WebApi\\VolPro.WebApi.csproj|solutionrelative:volpro.webapi\\volpro.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VolPro.WebApi\\VolPro.WebApi.csproj|e:\\sf_project\\api\\volpro.webapi\\controllers\\sf_project\\sf_project_templatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VolPro.WebApi\\VolPro.WebApi.csproj|solutionrelative:volpro.webapi\\controllers\\sf_project\\sf_project_templatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VolPro.WebApi\\VolPro.WebApi.csproj|e:\\sf_project\\api\\volpro.webapi\\controllers\\sf_project\\partial\\sf_project_templatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VolPro.WebApi\\VolPro.WebApi.csproj|solutionrelative:volpro.webapi\\controllers\\sf_project\\partial\\sf_project_templatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CAB2CA-E6D8-44DF-A92B-4F2DEE649600}|VolPro.sf_project\\VolPro.sf_project.csproj|e:\\sf_project\\api\\volpro.sf_project\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CAB2CA-E6D8-44DF-A92B-4F2DEE649600}|VolPro.sf_project\\VolPro.sf_project.csproj|solutionrelative:volpro.sf_project\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VolPro.WebApi\\VolPro.WebApi.csproj|e:\\sf_project\\api\\volpro.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4DB3C91B-93FE-4937-8B58-DDD3F57D4607}|VolPro.WebApi\\VolPro.WebApi.csproj|solutionrelative:volpro.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VolPro.WebApi",
+              "DocumentMoniker": "E:\\sf_project\\api\\VolPro.WebApi\\VolPro.WebApi.csproj",
+              "RelativeDocumentMoniker": "VolPro.WebApi\\VolPro.WebApi.csproj",
+              "ToolTip": "E:\\sf_project\\api\\VolPro.WebApi\\VolPro.WebApi.csproj",
+              "RelativeToolTip": "VolPro.WebApi\\VolPro.WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-02T07:15:47.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sf_project_templateController.cs",
+              "DocumentMoniker": "E:\\sf_project\\api\\VolPro.WebApi\\Controllers\\sf_project\\sf_project_templateController.cs",
+              "RelativeDocumentMoniker": "VolPro.WebApi\\Controllers\\sf_project\\sf_project_templateController.cs",
+              "ToolTip": "E:\\sf_project\\api\\VolPro.WebApi\\Controllers\\sf_project\\sf_project_templateController.cs",
+              "RelativeToolTip": "VolPro.WebApi\\Controllers\\sf_project\\sf_project_templateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T07:13:13.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "sf_project_templateController.cs",
+              "DocumentMoniker": "E:\\sf_project\\api\\VolPro.WebApi\\Controllers\\sf_project\\Partial\\sf_project_templateController.cs",
+              "RelativeDocumentMoniker": "VolPro.WebApi\\Controllers\\sf_project\\Partial\\sf_project_templateController.cs",
+              "ToolTip": "E:\\sf_project\\api\\VolPro.WebApi\\Controllers\\sf_project\\Partial\\sf_project_templateController.cs",
+              "RelativeToolTip": "VolPro.WebApi\\Controllers\\sf_project\\Partial\\sf_project_templateController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T07:12:32.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "E:\\sf_project\\api\\VolPro.sf_project\\Class1.cs",
+              "RelativeDocumentMoniker": "VolPro.sf_project\\Class1.cs",
+              "ToolTip": "E:\\sf_project\\api\\VolPro.sf_project\\Class1.cs",
+              "RelativeToolTip": "VolPro.sf_project\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T06:54:39.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\sf_project\\api\\VolPro.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "VolPro.WebApi\\appsettings.json",
+              "ToolTip": "E:\\sf_project\\api\\VolPro.WebApi\\appsettings.json",
+              "RelativeToolTip": "VolPro.WebApi\\appsettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-02T01:39:55.986Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

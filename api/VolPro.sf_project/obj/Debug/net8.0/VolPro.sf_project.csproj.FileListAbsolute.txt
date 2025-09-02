@@ -1,0 +1,17 @@
+E:\sf_project\api\VolPro.sf_project\bin\Debug\net8.0\VolPro.sf_project.deps.json
+E:\sf_project\api\VolPro.sf_project\bin\Debug\net8.0\VolPro.sf_project.dll
+E:\sf_project\api\VolPro.sf_project\bin\Debug\net8.0\VolPro.sf_project.pdb
+E:\sf_project\api\VolPro.sf_project\bin\Debug\net8.0\VolPro.Core.dll
+E:\sf_project\api\VolPro.sf_project\bin\Debug\net8.0\VolPro.Entity.dll
+E:\sf_project\api\VolPro.sf_project\bin\Debug\net8.0\VolPro.Core.pdb
+E:\sf_project\api\VolPro.sf_project\bin\Debug\net8.0\VolPro.Entity.pdb
+E:\sf_project\api\VolPro.sf_project\obj\Debug\net8.0\VolPro.sf_project.csproj.AssemblyReference.cache
+E:\sf_project\api\VolPro.sf_project\obj\Debug\net8.0\VolPro.sf_project.GeneratedMSBuildEditorConfig.editorconfig
+E:\sf_project\api\VolPro.sf_project\obj\Debug\net8.0\VolPro.sf_project.AssemblyInfoInputs.cache
+E:\sf_project\api\VolPro.sf_project\obj\Debug\net8.0\VolPro.sf_project.AssemblyInfo.cs
+E:\sf_project\api\VolPro.sf_project\obj\Debug\net8.0\VolPro.sf_project.csproj.CoreCompileInputs.cache
+E:\sf_project\api\VolPro.sf_project\obj\Debug\net8.0\VolPro.s.F41A9788.Up2Date
+E:\sf_project\api\VolPro.sf_project\obj\Debug\net8.0\VolPro.sf_project.dll
+E:\sf_project\api\VolPro.sf_project\obj\Debug\net8.0\refint\VolPro.sf_project.dll
+E:\sf_project\api\VolPro.sf_project\obj\Debug\net8.0\VolPro.sf_project.pdb
+E:\sf_project\api\VolPro.sf_project\obj\Debug\net8.0\ref\VolPro.sf_project.dll

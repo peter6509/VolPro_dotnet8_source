@@ -1,0 +1,237 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\Upload\\Tables\\Demo_Catalog\\202312081344531750\\default.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Tables\\Demo_Catalog\\202312081344531750\\default.jpg"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\Upload\\Tables\\Demo_Order\\202311020042012170\\02中国地图.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Tables\\Demo_Order\\202311020042012170\\02中国地图.jpg"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\Upload\\Tables\\Sys_ReportOptions\\202402060805269988\\3.jpg",
+      "PackagePath": "staticwebassets\\Upload\\Tables\\Sys_ReportOptions\\202402060805269988\\3.jpg"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\dataView\\16563637853357056_index_preview.png",
+      "PackagePath": "staticwebassets\\dataView\\16563637853357056_index_preview.png"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\dataView\\16563760762487808_index_preview.png",
+      "PackagePath": "staticwebassets\\dataView\\16563760762487808_index_preview.png"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\dataView\\16563811567272960_index_background.png",
+      "PackagePath": "staticwebassets\\dataView\\16563811567272960_index_background.png"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\dataView\\16563811567272960_index_preview.png",
+      "PackagePath": "staticwebassets\\dataView\\16563811567272960_index_preview.png"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\dataView\\16564609255818240_index_preview.png",
+      "PackagePath": "staticwebassets\\dataView\\16564609255818240_index_preview.png"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\dataView\\16568795341767680_index_preview.png",
+      "PackagePath": "staticwebassets\\dataView\\16568795341767680_index_preview.png"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\dataView\\16568795534623744_index_preview.png",
+      "PackagePath": "staticwebassets\\dataView\\16568795534623744_index_preview.png"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\dataView\\16569273010062336_index_preview.png",
+      "PackagePath": "staticwebassets\\dataView\\16569273010062336_index_preview.png"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\dataView\\16569341875094528_index_preview.png",
+      "PackagePath": "staticwebassets\\dataView\\16569341875094528_index_preview.png"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lang\\ar.js",
+      "PackagePath": "staticwebassets\\lang\\ar.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lang\\en.js",
+      "PackagePath": "staticwebassets\\lang\\en.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lang\\es.js",
+      "PackagePath": "staticwebassets\\lang\\es.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lang\\fr.js",
+      "PackagePath": "staticwebassets\\lang\\fr.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lang\\ru.js",
+      "PackagePath": "staticwebassets\\lang\\ru.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lang\\zh-tw.js",
+      "PackagePath": "staticwebassets\\lang\\zh-tw.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\vol.pro20241231\\api\\VolPro.WebApi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.VolPro.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.VolPro.WebApi.props",
+      "PackagePath": "build\\VolPro.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.VolPro.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\VolPro.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.VolPro.WebApi.props",
+      "PackagePath": "buildTransitive\\VolPro.WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

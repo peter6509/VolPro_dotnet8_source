@@ -1,0 +1,17 @@
+D:\vol.pro20241231\api\VolPro.DbTest\bin\Debug\net6.0\VolPro.DbTest.deps.json
+D:\vol.pro20241231\api\VolPro.DbTest\bin\Debug\net6.0\VolPro.DbTest.dll
+D:\vol.pro20241231\api\VolPro.DbTest\bin\Debug\net6.0\VolPro.DbTest.pdb
+D:\vol.pro20241231\api\VolPro.DbTest\bin\Debug\net6.0\VolPro.Core.dll
+D:\vol.pro20241231\api\VolPro.DbTest\bin\Debug\net6.0\VolPro.Entity.dll
+D:\vol.pro20241231\api\VolPro.DbTest\bin\Debug\net6.0\VolPro.Core.pdb
+D:\vol.pro20241231\api\VolPro.DbTest\bin\Debug\net6.0\VolPro.Entity.pdb
+D:\vol.pro20241231\api\VolPro.DbTest\obj\Debug\net6.0\VolPro.DbTest.csproj.AssemblyReference.cache
+D:\vol.pro20241231\api\VolPro.DbTest\obj\Debug\net6.0\VolPro.DbTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\vol.pro20241231\api\VolPro.DbTest\obj\Debug\net6.0\VolPro.DbTest.AssemblyInfoInputs.cache
+D:\vol.pro20241231\api\VolPro.DbTest\obj\Debug\net6.0\VolPro.DbTest.AssemblyInfo.cs
+D:\vol.pro20241231\api\VolPro.DbTest\obj\Debug\net6.0\VolPro.DbTest.csproj.CoreCompileInputs.cache
+D:\vol.pro20241231\api\VolPro.DbTest\obj\Debug\net6.0\VolPro.D.CDFC6DEE.Up2Date
+D:\vol.pro20241231\api\VolPro.DbTest\obj\Debug\net6.0\VolPro.DbTest.dll
+D:\vol.pro20241231\api\VolPro.DbTest\obj\Debug\net6.0\refint\VolPro.DbTest.dll
+D:\vol.pro20241231\api\VolPro.DbTest\obj\Debug\net6.0\VolPro.DbTest.pdb
+D:\vol.pro20241231\api\VolPro.DbTest\obj\Debug\net6.0\ref\VolPro.DbTest.dll

@@ -1,0 +1,12 @@
+E:\sf_project\api\VolPro.Entity\bin\Debug\net8.0\VolPro.Entity.deps.json
+E:\sf_project\api\VolPro.Entity\bin\Debug\net8.0\VolPro.Entity.dll
+E:\sf_project\api\VolPro.Entity\bin\Debug\net8.0\VolPro.Entity.pdb
+E:\sf_project\api\VolPro.Entity\obj\Debug\net8.0\VolPro.Entity.csproj.AssemblyReference.cache
+E:\sf_project\api\VolPro.Entity\obj\Debug\net8.0\VolPro.Entity.GeneratedMSBuildEditorConfig.editorconfig
+E:\sf_project\api\VolPro.Entity\obj\Debug\net8.0\VolPro.Entity.AssemblyInfoInputs.cache
+E:\sf_project\api\VolPro.Entity\obj\Debug\net8.0\VolPro.Entity.AssemblyInfo.cs
+E:\sf_project\api\VolPro.Entity\obj\Debug\net8.0\VolPro.Entity.csproj.CoreCompileInputs.cache
+E:\sf_project\api\VolPro.Entity\obj\Debug\net8.0\VolPro.Entity.dll
+E:\sf_project\api\VolPro.Entity\obj\Debug\net8.0\refint\VolPro.Entity.dll
+E:\sf_project\api\VolPro.Entity\obj\Debug\net8.0\VolPro.Entity.pdb
+E:\sf_project\api\VolPro.Entity\obj\Debug\net8.0\ref\VolPro.Entity.dll

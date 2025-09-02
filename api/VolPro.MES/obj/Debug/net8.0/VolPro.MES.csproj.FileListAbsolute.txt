@@ -1,0 +1,17 @@
+E:\sf_project\api\VolPro.MES\bin\Debug\net8.0\VolPro.MES.deps.json
+E:\sf_project\api\VolPro.MES\bin\Debug\net8.0\VolPro.MES.dll
+E:\sf_project\api\VolPro.MES\bin\Debug\net8.0\VolPro.MES.pdb
+E:\sf_project\api\VolPro.MES\bin\Debug\net8.0\VolPro.Core.dll
+E:\sf_project\api\VolPro.MES\bin\Debug\net8.0\VolPro.Entity.dll
+E:\sf_project\api\VolPro.MES\bin\Debug\net8.0\VolPro.Core.pdb
+E:\sf_project\api\VolPro.MES\bin\Debug\net8.0\VolPro.Entity.pdb
+E:\sf_project\api\VolPro.MES\obj\Debug\net8.0\VolPro.MES.csproj.AssemblyReference.cache
+E:\sf_project\api\VolPro.MES\obj\Debug\net8.0\VolPro.MES.GeneratedMSBuildEditorConfig.editorconfig
+E:\sf_project\api\VolPro.MES\obj\Debug\net8.0\VolPro.MES.AssemblyInfoInputs.cache
+E:\sf_project\api\VolPro.MES\obj\Debug\net8.0\VolPro.MES.AssemblyInfo.cs
+E:\sf_project\api\VolPro.MES\obj\Debug\net8.0\VolPro.MES.csproj.CoreCompileInputs.cache
+E:\sf_project\api\VolPro.MES\obj\Debug\net8.0\VolPro.MES.csproj.Up2Date
+E:\sf_project\api\VolPro.MES\obj\Debug\net8.0\VolPro.MES.dll
+E:\sf_project\api\VolPro.MES\obj\Debug\net8.0\refint\VolPro.MES.dll
+E:\sf_project\api\VolPro.MES\obj\Debug\net8.0\VolPro.MES.pdb
+E:\sf_project\api\VolPro.MES\obj\Debug\net8.0\ref\VolPro.MES.dll
